@@ -5,8 +5,48 @@
 @viewport {width: device-width; scale: 1;}
 
 html {
-text-size-adjust: 100%;
-box-sizing: border-box;
-font-family: sans-serif;
-margin: 0;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: sans-serif;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+/*header with nav-----------*/
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  float: left;
+  width: 100%;
+}
+
+a {
+  text-decoration: none
+}
+/*---------------------------*/

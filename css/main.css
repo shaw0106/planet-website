@@ -40,10 +40,10 @@ header {
 
 ol {
   list-style: none;
-  padding: 0;
   display: block;
   width: 100%;
   overflow: hidden;
+  text-align: center;
 }
 
 li {
@@ -60,12 +60,7 @@ a {
 
 /*------------media---------------*/
 
-@media only screen and (min-width: 20em) {
-
-
-
 @media only screen and (min-width: 38em){
-
 
 h1 {
   text-align: left;
@@ -74,13 +69,11 @@ h1 {
 }
 
 ol {
-  margin: 2em 0 0 0;
   padding: 0;
   text-align: left;
 }
 
 }
-
 
 
 /*------------moon---------------*/

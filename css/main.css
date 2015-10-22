@@ -41,11 +41,9 @@ header {
 ol {
   list-style: none;
   padding: 0;
-  margin-left: 2.5em;
   display: block;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 2em;
 }
 
 li {
@@ -94,14 +92,8 @@ li a {
 .nav-ol {
   list-style-type: none;
   display: block;
-  padding: 1.5em 0;
-  margin-bottom: 2em;
 }
 
-.nav li {
-  width: 33.3333%;
-  margin-bottom: 2em;
-}
 
 .hmoon a {
   color: black;
@@ -109,10 +101,6 @@ li a {
 
 .moons p {
   text-align: center;
-}
-
-.moons nav {
-
 }
 
 .hmoon {
@@ -129,12 +117,11 @@ li a {
 
 /*------------Media moon---------------*/
 
-@media only screen and (min-width: 20em){
-
-}
-
 @media only screen and (min-width: 38em){
 
+.moons p {
+    text-align: left;
+  }
 
 .nav-ol {
   display: inline-block;
@@ -166,7 +153,9 @@ li a {
 
 @media only screen and (min-width: 55em) {
 
-
+.moons p {
+  text-align: left;
+}
 
 .yellow {
   width: 100%;

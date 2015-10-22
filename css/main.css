@@ -31,7 +31,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 2em;
 }
 
 header {
@@ -41,10 +41,11 @@ header {
 ol {
   list-style: none;
   padding: 0;
-  margin: 2em 0 2em 0;
+  margin-left: 2.5em;
   display: block;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 2em;
 }
 
 li {
@@ -57,9 +58,6 @@ a {
   text-decoration: none
 }
 
-a :hover {
-  color: red;
-}
 
 
 /*------------media---------------*/
@@ -97,10 +95,12 @@ li a {
   list-style-type: none;
   display: block;
   padding: 1.5em 0;
+  margin-bottom: 2em;
 }
 
 .nav li {
   width: 33.3333%;
+  margin-bottom: 2em;
 }
 
 .hmoon a {
@@ -135,9 +135,6 @@ li a {
 
 @media only screen and (min-width: 38em){
 
-body {
-  background-color: yellow;
-}
 
 .nav-ol {
   display: inline-block;
@@ -148,4 +145,43 @@ body {
   margin-right: 1em;
   float: left;
 }
+
+.yellow {
+  width: 100%;
+}
+
+.orng {
+  width: 50%;
+}
+
+.blue{
+  width: 100%;
+}
+
+.green {
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 55em) {
+
+
+
+.yellow {
+  width: 100%;
+}
+
+.orng {
+  width: 50%;
+}
+
+.blue {
+  width: 50%;
+}
+
+.green {
+  width: 50%;
+}
+
 }

@@ -41,12 +41,16 @@ header {
 ol {
   list-style: none;
   padding: 0;
-  margin: 2em 0;
+  margin: 2em 0 2em 0;
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 li {
   float: left;
-  width: 100%;
+  text-align: center;
+  padding-left: 1em;
 }
 
 a {
@@ -62,26 +66,10 @@ a :hover {
 
 @media only screen and (min-width: 20em) {
 
-body {
-  background-color: blue;
-}
 
-ol {
-  text-align: center;
-}
-
-li {
-  display: inline-block;
-  padding: .25em;
-}
-
-}
 
 @media only screen and (min-width: 38em){
 
-body {
-  background-color: red;
-}
 
 h1 {
   text-align: left;
@@ -105,21 +93,31 @@ li a {
     color: black;
 }
 
-.pve a {
+.nav-ol {
+  list-style-type: none;
+  display: block;
+  padding: 1.5em 0;
+}
+
+.nav li {
+  width: 33.3333%;
+}
+
+.hmoon a {
   color: black;
 }
 
-.pve {
+.moons p {
   text-align: center;
+}
+
+.moons nav {
+
 }
 
 .hmoon {
   text-align: left;
   margin-bottom: 0.75em;
-}
-
-.hmoon ol {
-  margin: 1em 0 1em 0;
 }
 
 .hmoon p {
@@ -130,3 +128,24 @@ li a {
 }
 
 /*------------Media moon---------------*/
+
+@media only screen and (min-width: 20em){
+
+}
+
+@media only screen and (min-width: 38em){
+
+body {
+  background-color: yellow;
+}
+
+.nav-ol {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav-ol li{
+  margin-right: 1em;
+  float: left;
+}
+}

@@ -56,6 +56,8 @@ a {
 a :hover {
   color: red;
 }
+
+
 /*------------media---------------*/
 
 @media only screen and (min-width: 20em) {
@@ -81,12 +83,50 @@ body {
   background-color: red;
 }
 
+h1 {
+  text-align: left;
+  margin-top: 1em;
+  padding: 0;
+}
+
+ol {
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: left;
+}
+
 }
 
 
-@media only screen and (min-width: 60em){
 
-  body {
-    background-color: yellow;
-  }
+/*------------moon---------------*/
+
+li a {
+    color: black;
 }
+
+.pve a {
+  color: black;
+}
+
+.pve {
+  text-align: center;
+}
+
+.hmoon {
+  text-align: left;
+  margin-bottom: 0.75em;
+}
+
+.hmoon ol {
+  margin: 1em 0 1em 0;
+}
+
+.hmoon p {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/*------------Media moon---------------*/

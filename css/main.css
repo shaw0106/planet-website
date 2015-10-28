@@ -784,9 +784,8 @@ body {
   margin: 0;
 }
 
-h3 {
+h1 {
   text-align: center;
-  margin-top: 1.5rem;
 }
 
 header {
@@ -829,16 +828,20 @@ a :hover {
   padding-right: .75rem;
 }
 
-img {
-  width: 100%
-}
 
-p, h2, figcaption {
+
+p, h2, figcaption, dd, dt {
   padding-left: .75rem;
   padding-right: .75rem;
 }
 
+.backgrey {
+  background-color: #cccccc;
+}
 
+.backligrey {
+  background-color: #e2e2e2;
+}
 
 /*------------media---------------*/
 

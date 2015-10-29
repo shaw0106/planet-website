@@ -30,9 +30,16 @@ body {
   margin: 0;
 }
 
+.gutter{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 h1 {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: black;
 }
 
 header {
@@ -56,27 +63,23 @@ ol {
 li {
   float: left;
   text-align: center;
-  padding-left: 2.3em;
+  padding-left: 2em;
 }
 
 a {
   text-decoration: none;
   color: blue;
-
 }
 
 a:hover {
   background-color: blue;
   color: white;
-  padding: .5em;
 }
 
 p, h2, dd, dt {
   padding-left: .75rem;
   padding-right: .75rem;
 }
-
-
 
 .backgrey {
   background-color: #cccccc;
@@ -86,49 +89,28 @@ p, h2, dd, dt {
   background-color: #e2e2e2;
 }
 
-/*------------media---------------*/
-
-@media only screen and (min-width: 38em){
-
+footer a:hover{
+  color: #fff;
 }
 
 
 /*------------moon---------------*/
 
-
-.nav-ol {
-  list-style-type: none;
-  display: block;
+footer {
+  background-color: #e2e2e2;
 }
 
-
-.hmoon a {
-  color: black;
+.bottom {
+  background-color: #e2e2e2;
+  padding-top: 1rem;
 }
 
-.moons p {
-  text-align: center;
-}
-
-.hmoon {
-  text-align: left;
-  margin-bottom: 0.75em;
-}
-
-.hmoon p {
-  text-align: center;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
+/*------------media---------------*/
 
 /*------------Media moon---------------*/
 
 @media only screen and (min-width: 38em){
 
-.moons p {
-    text-align: left;
-  }
 
 .nav-ol {
   display: inline-block;
@@ -136,7 +118,6 @@ p, h2, dd, dt {
 }
 
 .nav-ol li{
-  margin-right: 1em;
   float: left;
 }
 
@@ -160,9 +141,7 @@ p, h2, dd, dt {
 
 @media only screen and (min-width: 55em) {
 
-.moons p {
-  text-align: left;
-}
+
 
 .yellow {
   width: 100%;
@@ -198,8 +177,6 @@ p, h2, dd, dt {
 
   .exploration-links ol {
     text-align: left;
-    padding-left: 0.6rem;
-    margin-bottom: 0;
   }
 
 }

@@ -56,17 +56,19 @@ ol {
 li {
   float: left;
   text-align: center;
-  padding-left: 1em;
+  padding-left: 2.3em;
 }
 
 a {
   text-decoration: none;
   color: blue;
+
 }
 
-a :hover {
+a:hover {
   background-color: blue;
   color: white;
+  padding: .5em;
 }
 
 p, h2, dd, dt {
@@ -93,9 +95,6 @@ p, h2, dd, dt {
 
 /*------------moon---------------*/
 
-li a {
-    color: black;
-}
 
 .nav-ol {
   list-style-type: none;

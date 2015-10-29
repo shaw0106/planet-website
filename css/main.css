@@ -17,8 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-
-
 /*-------------------------------------------------*/
 
 .img-flex{
@@ -30,10 +28,6 @@ body {
   margin: 0;
 }
 
-.gutter{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 
 h1 {
   text-align: center;
@@ -106,6 +100,27 @@ footer {
 }
 
 /*------------media---------------*/
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+
+}
 
 /*------------Media moon---------------*/
 

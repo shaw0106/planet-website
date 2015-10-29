@@ -94,10 +94,7 @@ footer {
   background-color: #e2e2e2;
 }
 
-.bottom {
-  background-color: #e2e2e2;
-  padding-top: 1rem;
-}
+
 
 /*------------media---------------*/
 
@@ -136,43 +133,11 @@ footer {
   float: left;
 }
 
-.yellow {
-  width: 100%;
-}
-
-.orng {
-  width: 50%;
-}
-
-.blue{
-  width: 100%;
-}
-
-.green {
-  width: 100%;
-}
 
 }
 
 @media only screen and (min-width: 55em) {
 
-
-
-.yellow {
-  width: 100%;
-}
-
-.orng {
-  width: 50%;
-}
-
-.blue {
-  width: 50%;
-}
-
-.green {
-  width: 50%;
-}
 
 }
 
@@ -180,18 +145,9 @@ footer {
 
 /*---------------------------------explore-------------------*/
 
-.exploration-h2 {
-  background-color: #e2e2e2;
-}
 
-.exploration-links {
-  background-color: #cbcbcb;
-}
 
 @media only screen and (min-width: 20em) {
 
-  .exploration-links ol {
-    text-align: left;
-  }
 
 }

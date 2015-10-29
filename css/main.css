@@ -5,12 +5,14 @@
 @viewport {width: device-width; scale: 1;}
 
 html {
-  font: normal 100%/1.5 Helvetica, sans-serif;
+
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font: normal 100%/1.5 Helvetica, sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,6 +28,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 
@@ -44,19 +47,15 @@ header {
   background-color: #e2e2e2;
 }
 
-nav {
-  width: 100%;
-}
+
 
 ol {
   list-style: none;
   display: block;
-  text-align: center;
 }
 
 li {
   float: left;
-  text-align: center;
   padding-left: 2em;
 }
 
@@ -94,9 +93,6 @@ footer {
   background-color: #e2e2e2;
 }
 
-.phaseimg {
-  float: left;
-}
 
 
 
@@ -120,7 +116,6 @@ footer {
   .nav {
     text-align: left;
   }
-
 }
 
 /*------------Media moon---------------*/
@@ -136,22 +131,7 @@ footer {
 .nav-ol li{
   float: left;
 }
-
-
 }
-
-@media only screen and (min-width: 55em) {
-
-
-}
-
 
 
 /*---------------------------------explore-------------------*/
-
-
-
-@media only screen and (min-width: 20em) {
-
-
-}
